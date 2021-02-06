@@ -8,16 +8,28 @@ ng new eattasty-challenge
 
 - Run Project
 
-```
+```ng
 ng serve
 ```
 
+- Installing Bootstrap
 
-npm install bootstrap ngx-bootstrap --save
+```npm
+ npm install bootstrap@3 --save
+```
 
+## Para Testar
 
-npm i @angular/animations@latest --save
+- Clone Repository
 
-npm install angular-star-rating css-star-rating --save
+- Execute:
 
-ng add @ng-bootstrap/ng-bootstrap
+```npm
+npm i
+```
+
+- Start Service
+
+```npm
+ng serve
+```

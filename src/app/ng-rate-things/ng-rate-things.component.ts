@@ -17,6 +17,7 @@ export class NgRateThingsComponent implements OnInit {
   imageOpacity: number;
   list = [];
   opacityOriginal = [];
+  avaliacao;
 
   constructor() {
   }
@@ -72,6 +73,9 @@ export class NgRateThingsComponent implements OnInit {
     this.list.forEach(element => {
       this.opacityOriginal.push({ id: element.rate, opacity: element.opacity })
     })
+  }
+
+  cadastrar(): void {
   }
 
 }

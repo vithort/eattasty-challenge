@@ -6,9 +6,6 @@ h2 {
   position: relative;
   display: inline-block;
   margin-right: 10px;
-}
-
-.reset {
-  clear: both;
+  margin-bottom: 20px;
 }
 

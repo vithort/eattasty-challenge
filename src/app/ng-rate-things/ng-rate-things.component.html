@@ -1,22 +1,9 @@
 <h2>{{ title }}</h2>
 
 <div class="rate" *ngFor="let item of list">
-  <buton
-    (click)="click($event)"
-    (mouseover)="mouseOver($event)"
-    (mouseout)="mouseOut($event)"
-  >
-    <img
-      [id]="item.rate"
-      [src]="imageSrc"
-      [height]="imageSize"
-      [width]="imageSize"
-      [style.color]="imageColor"
-      [style.opacity]="item.opacity"
-    >
+  <buton (click)="click($event)" (mouseover)="mouseOver($event)" (mouseout)="mouseOut($event)">
+    <img [id]="item.rate" [src]="imageSrc" [height]="imageSize" [width]="imageSize" [style.color]="imageColor"
+      [style.opacity]="item.opacity">
   </buton>
 </div>
-
-
-<div class="reset"></div>
 
