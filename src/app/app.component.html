@@ -1,0 +1,50 @@
+<div id="main-container">
+
+  <div class="header-placeholder"></div>
+  <nav class="header-navbar navbar navbar-full fixed-bg-home">
+    <div class="container">
+      <div class="col-navbar-left">
+      </div>
+
+      <div class="col-brand">
+        <a class="navbar-brand" href="/">
+          <div class="brand-logo">
+            <img id="logo" src="../assets/img/logo.jpg" alt="EatTasty" width="70" height="70">
+          </div>
+          <h1 class="sr-only">EatTasty</h1>
+        </a>
+      </div>
+
+      <div class="col-avatar col-avatar-home open-menu-full">
+
+        <ul class="navbar-nav navbar-login hidden-xs-down">
+          <li class="nav-item">
+            <a class="nav-link btn-login" href="#">Entrar</a>
+          </li>
+        </ul>
+
+        <div class="languages-block">
+          <span>EN</span>
+          <span>.</span>
+          <span class="yellow">PT</span>
+        </div>
+
+      </div>
+    </div>
+
+
+  </nav>
+  <div class="container-fluid">
+
+    <ng-rate-things
+      [title]="titleRate"
+      [imageColor] = "imageColor"
+      [imageSize] = "imageSize"
+      [imageOpacitySelect] = "imageOpacitySelect"
+      [imageOpacityUnselect] = "imageOpacityUnselect"
+      [imageSrc] = "imageSrc"
+      [qtyRate] = "qtyRate"
+    ></ng-rate-things>
+
+  </div>
+</div>

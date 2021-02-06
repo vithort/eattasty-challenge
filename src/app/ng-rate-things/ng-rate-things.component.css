@@ -1,0 +1,14 @@
+h2 {
+  margin-bottom: 20px;
+}
+
+.rate {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.reset {
+  clear: both;
+}
+
